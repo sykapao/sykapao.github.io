@@ -1,167 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link rel="dns-prefetch" href="http://yoursite.com">
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
   <title>sykapao</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="sykapao">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="sykapao">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="sykapao">
   
-    <link rel="alternative" href="/atom.xml" title="sykapao" type="application/atom+xml">
+  <link href="/atom.xml" rel="self"/>
   
+  <link href="http://yoursite.com/"/>
+  <updated>2016-12-09T03:39:41.000Z</updated>
+  <id>http://yoursite.com/</id>
   
-    <link rel="icon" href="/favicon.png">
-  
-  <link rel="stylesheet" href="/main.css?v=4.0.0.css">
-  
-
-</head>
-
-<body>
-  <div id="container" q-class="show:isCtnShow">
-    <canvas id="anm-canvas" class="anm-canvas"></canvas>
-    <div class="left-col" q-class="show:isShow">
-      <div class="overlay"></div>
-<div class="intrude-less">
-	<header id="header" class="inner">
-		<a href="/" class="profilepic">
-			<img src="/assets/img/self.jpg" class="js-avatar">
-		</a>
-
-		<hgroup>
-		  <h1 class="header-author"><a href="/">sykapao</a></h1>
-		</hgroup>
-
-		
-
-		<nav class="header-menu">
-			<ul>
-			
-				<li><a href="/">主页</a></li>
-	        
-				<li><a href="/archives/">所有文章</a></li>
-	        
-				<li><a href="/tags/随笔/">随笔</a></li>
-	        
-			</ul>
-		</nav>
-		<nav class="header-smart-menu">
-	        
-    		
-    			
-    			<a data-idx="0" q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
-    			
-    			
-            
-    			
-    			<a data-idx="1" q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
-    			
-    			
-            
-    			
-    			<a data-idx="2" q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
-    			
-    			
-            
-		</nav>
-		<nav class="header-nav">
-			<div class="social">
-				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
-		        
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
-		        
-					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
-		        
-			</div>
-		</nav>
-	</header>		
-</div>
-
-    </div>
-    <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
-      <nav id="mobile-nav">
-  	<div class="overlay">
-  		<div class="slider-trigger"><i class="icon-sort"></i></div>
-  		<h1 class="header-author js-mobile-header hide">sykapao</h1>
-  	</div>
-	<div class="intrude-less">
-		<header id="header" class="inner">
-			<div class="profilepic">
-				<img src="/assets/img/self.jpg" class="js-avatar">
-			</div>
-			<hgroup>
-			  <h1 class="header-author">sykapao</h1>
-			</hgroup>
-			
-			<nav class="header-menu">
-				<ul>
-				
-					<li><a href="/">主页</a></li>
-		        
-					<li><a href="/archives/">所有文章</a></li>
-		        
-					<li><a href="/tags/随笔/">随笔</a></li>
-		        
-		        
-		        	<li><a href="/archives/">所有文章</a></li>
-		        
-				</ul>
-			</nav>
-			<nav class="header-nav">
-				<div class="social">
-					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
-			        
-						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
-			        
-						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
-			        
-				</div>
-			</nav>
-		</header>				
-	</div>
-</nav>
-
-      <div id="wrapper" class="body-wrap">
-        <div class="menu-l">
-          <div class="canvas-wrap">
-            <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
-          </div>
-          <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+  <author>
+    <name>sykapao</name>
     
-      <header class="article-header">
-        
+  </author>
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/12/09/hello-world/">Hello World</a>
-    </h1>
+  <generator uri="http://hexo.io/">Hexo</generator>
   
-
-        <a href="/2016/12/09/hello-world/" class="archive-article-date">
-  	<time datetime="2016-12-09T03:39:41.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-09</time>
-</a>
-      </header>
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2016/12/09/hello-world/"/>
+    <id>http://yoursite.com/2016/12/09/hello-world/</id>
+    <published>2016-12-09T03:39:41.000Z</published>
+    <updated>2016-12-09T03:39:41.000Z</updated>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
@@ -170,55 +31,25 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2016/12/09/hello-world/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
-  
-    <article id="post-营养学" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+]]></content>
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/11/营养学/">营养学</a>
-    </h1>
-  
-
-        <a href="/2016/06/11/营养学/" class="archive-article-date">
-  	<time datetime="2016-06-11T05:40:39.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-06-11</time>
-</a>
-      </header>
+    <summary type="html">
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="关键词"><a href="#关键词" class="headerlink" title="关键词"></a>关键词</h3><ol>
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>营养学</title>
+    <link href="http://yoursite.com/2016/06/11/%E8%90%A5%E5%85%BB%E5%AD%A6/"/>
+    <id>http://yoursite.com/2016/06/11/营养学/</id>
+    <published>2016-06-11T05:40:39.000Z</published>
+    <updated>2016-10-14T01:54:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="关键词"><a href="#关键词" class="headerlink" title="关键词"></a>关键词</h3><ol>
 <li>脂肪酸</li>
 <li>葡萄糖</li>
 <li>糖原</li>
@@ -239,114 +70,57 @@
 </blockquote>
 </li>
 </ol>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2016/06/11/营养学/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
-  
-    <article id="post-语法测试" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+]]></content>
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/11/语法测试/">语法测试</a>
-    </h1>
-  
-
-        <a href="/2016/06/11/语法测试/" class="archive-article-date">
-  	<time datetime="2016-06-11T04:13:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-06-11</time>
-</a>
-      </header>
+    <summary type="html">
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>$$    x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p>
+      &lt;h3 id=&quot;关键词&quot;&gt;&lt;a href=&quot;#关键词&quot; class=&quot;headerlink&quot; title=&quot;关键词&quot;&gt;&lt;/a&gt;关键词&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;脂肪酸&lt;/li&gt;
+&lt;li&gt;葡萄糖&lt;/li&gt;
+&lt;li&gt;糖原&lt;/li&gt;
+&lt;li&gt;含糖复合物&lt;/li&gt;
+&lt;li&gt;核糖&lt;/li&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>语法测试</title>
+    <link href="http://yoursite.com/2016/06/11/%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2016/06/11/语法测试/</id>
+    <published>2016-06-11T04:13:57.000Z</published>
+    <updated>2016-06-11T05:03:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>$$    x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p>
 <p>$$<br>  \begin{aligned}<br>  \dot{x} &amp; = \sigma(y-x) \\<br>  \dot{y} &amp; = \rho x - y - xz \\<br>  \dot{z} &amp; = -\beta z + xy<br>  \end{aligned}<br>$$</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">st=&gt;start: Start</div><div class="line">e=&gt;end</div><div class="line">op=&gt;operation: My Operation</div><div class="line">cond=&gt;condition: Yes or No?</div><div class="line"></div><div class="line">st-&gt;op-&gt;cond</div><div class="line">cond(yes)-&gt;e</div><div class="line">cond(no)-&gt;op</div></pre></td></tr></table></figure>
 <p>$E=m^2$</p>
 <p>$$\sum_{i=1}^n a_i=0$$</p>
 <h3 id="添加音乐"><a href="#添加音乐" class="headerlink" title="添加音乐"></a>添加音乐</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;http://music.163.com/outchain/player?type=2&amp;id=31341931&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo-markdown/">hexo,markdown</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2016/06/11/语法测试/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
-  
-    <article id="post-人体肌肉" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+]]></content>
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/10/人体肌肉/">人体肌肉</a>
-    </h1>
-  
-
-        <a href="/2016/06/10/人体肌肉/" class="archive-article-date">
-  	<time datetime="2016-06-10T11:33:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-06-10</time>
-</a>
-      </header>
+    <summary type="html">
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="人体肌肉图解"><a href="#人体肌肉图解" class="headerlink" title="人体肌肉图解"></a>人体肌肉图解</h2><p><img src="http://7xtjf0.com1.z0.glb.clouddn.com/%E8%82%8C%E8%82%89%E5%9B%BE%E6%AD%A3%E9%9D%A2.jpg" alt="人体肌肉正面" title="人体肌肉正面"></p>
+      &lt;p&gt;$$    x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;  \begin{aligned}&lt;br&gt;  \dot{x} &amp;amp; = \sigma(y-x) \\&lt;br&gt;  \dot{y} &amp;amp; = 
+    
+    </summary>
+    
+    
+      <category term="hexo,markdown" scheme="http://yoursite.com/tags/hexo-markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>人体肌肉</title>
+    <link href="http://yoursite.com/2016/06/10/%E4%BA%BA%E4%BD%93%E8%82%8C%E8%82%89/"/>
+    <id>http://yoursite.com/2016/06/10/人体肌肉/</id>
+    <published>2016-06-10T11:33:28.000Z</published>
+    <updated>2016-06-10T13:08:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="人体肌肉图解"><a href="#人体肌肉图解" class="headerlink" title="人体肌肉图解"></a>人体肌肉图解</h2><p><img src="http://7xtjf0.com1.z0.glb.clouddn.com/%E8%82%8C%E8%82%89%E5%9B%BE%E6%AD%A3%E9%9D%A2.jpg" alt="人体肌肉正面" title="人体肌肉正面"></p>
 <p><img src="http://7xtjf0.com1.z0.glb.clouddn.com/%E8%82%8C%E8%82%89%E5%9B%BE%E8%83%8C%E9%9D%A2.jpg" alt="人体肌肉背面" title="人体肌肉背面"></p>
 <h2 id="哑铃飞鸟"><a href="#哑铃飞鸟" class="headerlink" title="哑铃飞鸟"></a>哑铃飞鸟</h2><p><img src="http://7xtjf0.com1.z0.glb.clouddn.com/%E4%BB%B0%E5%8D%A7%E9%A3%9E%E9%B8%9F.gif" alt="哑铃飞鸟" title="Optional title"></p>
 <h2 id="侧卷腹"><a href="#侧卷腹" class="headerlink" title="侧卷腹"></a>侧卷腹</h2><p><img src="http://7xtjf0.com1.z0.glb.clouddn.com/%E4%BE%A7%E5%8D%B7%E8%85%B9.gif" alt="侧卷腹" title="Optional title"></p>
@@ -379,60 +153,27 @@
 <h2 id="窄距俯卧撑"><a href="#窄距俯卧撑" class="headerlink" title="窄距俯卧撑"></a>窄距俯卧撑</h2><p><img src="http://7xtjf0.com1.z0.glb.clouddn.com/%E7%AA%84%E8%B7%9D%E4%BF%AF%E5%8D%A7%E6%92%91.gif" alt="窄距俯卧撑" title="Optional title"></p>
 <h2 id="肱三头肌训练"><a href="#肱三头肌训练" class="headerlink" title="肱三头肌训练"></a>肱三头肌训练</h2><p><img src="http://7xtjf0.com1.z0.glb.clouddn.com/%E8%82%B1%E4%B8%89%E5%A4%B4%E8%82%8C%E8%AE%AD%E7%BB%83.gif" alt="肱三头肌训练" title="Optional title"></p>
 <h2 id="背蹲"><a href="#背蹲" class="headerlink" title="背蹲"></a>背蹲</h2><p><img src="http://7xtjf0.com1.z0.glb.clouddn.com/%E8%83%8C%E8%B9%B2.gif" alt="背蹲" title="Optional title"></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/健身/">健身</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2016/06/10/人体肌肉/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
-  
-    <article id="post-Hexo使用" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+]]></content>
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/10/Hexo使用/">Hexo使用</a>
-    </h1>
-  
-
-        <a href="/2016/06/10/Hexo使用/" class="archive-article-date">
-  	<time datetime="2016-06-10T04:42:02.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-06-10</time>
-</a>
-      </header>
+    <summary type="html">
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="Hexo-简单介绍"><a href="#Hexo-简单介绍" class="headerlink" title="Hexo 简单介绍"></a>Hexo 简单介绍</h2><p>hexo 是一个基于Node.js的静态博客框架，可以方便的生成静态网页并且托管在github 上。hexo是一个开源的博客框架，我们可以任意使用修改，但是很多功能要自己去实现，没有计算机基础的人使用起来可能比较困难。</p>
+      &lt;h2 id=&quot;人体肌肉图解&quot;&gt;&lt;a href=&quot;#人体肌肉图解&quot; class=&quot;headerlink&quot; title=&quot;人体肌肉图解&quot;&gt;&lt;/a&gt;人体肌肉图解&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://7xtjf0.com1.z0.glb.clouddn.com/%E8%82
+    
+    </summary>
+    
+    
+      <category term="健身" scheme="http://yoursite.com/tags/%E5%81%A5%E8%BA%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo使用</title>
+    <link href="http://yoursite.com/2016/06/10/Hexo%E4%BD%BF%E7%94%A8/"/>
+    <id>http://yoursite.com/2016/06/10/Hexo使用/</id>
+    <published>2016-06-10T04:42:02.000Z</published>
+    <updated>2016-06-10T09:04:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Hexo-简单介绍"><a href="#Hexo-简单介绍" class="headerlink" title="Hexo 简单介绍"></a>Hexo 简单介绍</h2><p>hexo 是一个基于Node.js的静态博客框架，可以方便的生成静态网页并且托管在github 上。hexo是一个开源的博客框架，我们可以任意使用修改，但是很多功能要自己去实现，没有计算机基础的人使用起来可能比较困难。</p>
 <h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>前面提到hexo是基于Node.js的博客框架，所以安装Hexo之前需要先Node.js 和设置 github(托管代码)</p>
 <h2 id="GitHub-设置"><a href="#GitHub-设置" class="headerlink" title="GitHub 设置"></a>GitHub 设置</h2><p>首先你要注册一个github帐号<br>创建一个库（new repository）命名为YourSiteName.github.io/<br>根据自己的喜好简单设置一下github生成的静态网页</p>
 <p><a href="http://blog.csdn.net/renfufei/article/details/37725057" title="请参考" target="_blank" rel="external">请参考</a></p>
@@ -483,60 +224,27 @@
 <h2 id="其他教程"><a href="#其他教程" class="headerlink" title="其他教程"></a>其他教程</h2><p><a href="http://cighao.com/2016/03/01/add-copyright-to-hexo/" title="版权" target="_blank" rel="external">如何添加版权信息</a></p>
 <p><a href="http://cighao.com/2016/02/14/optimization-of-hexo/" title="优化" target="_blank" rel="external">主题优化</a></p>
 <p><a href="http://cighao.com/2015/12/13/add-toc-to-hexo/" title="目录" target="_blank" rel="external">添加目录</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2016/06/10/Hexo使用/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
-  
-    <article id="post-螺蛳壳里做道场" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+]]></content>
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/05/10/螺蛳壳里做道场/">螺蛳壳里做道场</a>
-    </h1>
-  
-
-        <a href="/2016/05/10/螺蛳壳里做道场/" class="archive-article-date">
-  	<time datetime="2016-05-10T03:03:47.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-05-10</time>
-</a>
-      </header>
+    <summary type="html">
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
+      &lt;h2 id=&quot;Hexo-简单介绍&quot;&gt;&lt;a href=&quot;#Hexo-简单介绍&quot; class=&quot;headerlink&quot; title=&quot;Hexo 简单介绍&quot;&gt;&lt;/a&gt;Hexo 简单介绍&lt;/h2&gt;&lt;p&gt;hexo 是一个基于Node.js的静态博客框架，可以方便的生成静态网页并且托管在g
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>螺蛳壳里做道场</title>
+    <link href="http://yoursite.com/2016/05/10/%E8%9E%BA%E8%9B%B3%E5%A3%B3%E9%87%8C%E5%81%9A%E9%81%93%E5%9C%BA/"/>
+    <id>http://yoursite.com/2016/05/10/螺蛳壳里做道场/</id>
+    <published>2016-05-10T03:03:47.000Z</published>
+    <updated>2016-06-10T04:25:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
 <p>典故:</p>
 <p>公元1142年，奸臣秦桧以”莫须有”的罪名把抗金名将岳飞父子和岳飞的女婿张宪在风波亭杀害了，狱卒隗顺，因同情忠臣一心为国反而无辜蒙冤而死，便打算冒险掩埋岳飞等人的遗体，但该埋在什么地方呢？思来想去，忽然心里一亮：为什么不把他们埋在螺蛳壳堆里呢？</p>
 <p>原来，在钱塘门外，有不少穷人靠螺蛳为生。他们在小河边支起锅，将螺蛳倒入沸水中煮熟，然后用弯针挑出螺蛳肉，晒干出卖，日积月累，废弃的螺蛳壳在河边越积越厚，有的地方竟有二三尺厚。<br>当晚，隗顺便悄悄地将岳飞等人的遗骨背出城外，扒开螺蛳壳，把他们掩埋了，然后又把螺蛳壳盖在上面。这一切做得人不知，鬼不觉，毫无破绽，秦桧得知遗体失踪后立即命人四处搜查，因为隗顺埋得巧妙，所以没有人发现。此后，每到清明节，隗顺都要到那里祭拜一番。</p>
@@ -544,60 +252,29 @@
 <p>宋孝宗得知后，立刻派人到螺蛳壳堆里去寻找。果然在那里找到了岳飞等人的遗体，于是，朝廷选择了黄道吉日，把他们的骸骨迁葬在栖霞岭。为了超度亡灵，进行又请了120个和尚到原葬地做全堂水陆道场。</p>
 <p>结果<br>临安的百姓痛恨奸贼，敬仰忠臣，听说朝廷为岳飞等人做道场，便成群结队原葬地祭拜。途中，人们相互询问：”今天究竟在哪儿做道场？”知道的人便说：”螺蛳壳里做道场。”于是，这句话便传开了。</p>
 <hr>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/典故/">典故</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2016/05/10/螺蛳壳里做道场/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
-  
-    <article id="post-一炼成钢15秒训练大脑提供意志力" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+]]></content>
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/05/08/一炼成钢15秒训练大脑提供意志力/">一炼成钢15秒训练大脑提供意志力</a>
-    </h1>
-  
-
-        <a href="/2016/05/08/一炼成钢15秒训练大脑提供意志力/" class="archive-article-date">
-  	<time datetime="2016-05-08T02:03:19.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-05-08</time>
-</a>
-      </header>
+    <summary type="html">
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote>
+      &lt;hr&gt;
+&lt;p&gt;典故:&lt;/p&gt;
+&lt;p&gt;公元1142年，奸臣秦桧以”莫须有”的罪名把抗金名将岳飞父子和岳飞的女婿张宪在风波亭杀害了，狱卒隗顺，因同情忠臣一心为国反而无辜蒙冤而死，便打算冒险掩埋岳飞等人的遗体，但该埋在什么地方呢？思来想去，忽然心里一亮：为什么不把他们埋在螺蛳壳堆里呢
+    
+    </summary>
+    
+    
+      <category term="典故" scheme="http://yoursite.com/tags/%E5%85%B8%E6%95%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一炼成钢15秒训练大脑提供意志力</title>
+    <link href="http://yoursite.com/2016/05/08/%E4%B8%80%E7%82%BC%E6%88%90%E9%92%A215%E7%A7%92%E8%AE%AD%E7%BB%83%E5%A4%A7%E8%84%91%E6%8F%90%E4%BE%9B%E6%84%8F%E5%BF%97%E5%8A%9B/"/>
+    <id>http://yoursite.com/2016/05/08/一炼成钢15秒训练大脑提供意志力/</id>
+    <published>2016-05-08T02:03:19.000Z</published>
+    <updated>2016-05-08T02:05:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
 <p>一炼成钢<br><strong>15</strong><br>秒训练大脑提高意志力</p>
 </blockquote>
 <p>到底是身体控制意志，还是意志控制身体？直到现在，答案也不明晰。比如，你以为跑步让你开心，或者拉伸释放压力。但一份新研究明确地将高强度间歇训练和下丘脑联系在了一起。这部分的大脑掌管食欲调节、欲望以及成瘾。用15秒在单车上做个冲刺来完结你的健身，然后完全放松1分钟，重复10次，其有利于降低血液中饥饿激素脑肠肽的浓度。换句话说，这会告诉你的大脑去选择健康食物关爱自己，而不是选择不健康食物来放纵。</p>
@@ -610,115 +287,52 @@
 <p><strong><em>唤起回忆</em></strong><br><img src="http://7xtjf0.com1.z0.glb.clouddn.com/%E8%B7%91%E6%AD%A5.png" width="80" height="80"><br>有规律的有氧训练会刺激你的海马体，这个大脑部分负责记忆。研究指出，这会增加2%的脑容量，让你快速回忆起老板需要知道的数据。</p>
 <p><strong><em>会前运动</em></strong><br><img src="http://7xtjf0.com1.z0.glb.clouddn.com/%E8%B6%B3%E7%90%83.png" width="90" height="90"><br>在做重大会议展示的前晚去踢场球。《神经科学杂志》的研究发现，体育训练会刺激基底核从而降低抑制作用，缓解怯场从而让你毫无畏惧地去主持任何会议。</p>
 <hr>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/健身/">健身</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2016/05/08/一炼成钢15秒训练大脑提供意志力/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
-  
-    <article id="post-卓文君和司马相如" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+]]></content>
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/30/卓文君和司马相如/">卓文君和司马相如</a>
-    </h1>
-  
-
-        <a href="/2016/04/30/卓文君和司马相如/" class="archive-article-date">
-  	<time datetime="2016-04-30T05:33:50.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-04-30</time>
-</a>
-      </header>
+    <summary type="html">
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><img src="http://7xtjf0.com2.z0.glb.clouddn.com/%E5%8D%93%E6%96%87%E5%90%9B.jpg" alt="卓文君"><br>卓文君，汉代才女，西汉临邛(属今四川邛崃)人，卓文君她貌美有才气，善鼓琴，家中富贵。她是汉临邛大富商卓王孙女，好音律，新寡家居。司马相如与卓文君的故事可说是家喻户晓。司马相如过饮于卓氏，以琴心挑之，文君夜奔相如，同驰归成都。因家贫，复回临邛，尽卖其车骑，置酒舍卖酒。相如身穿犊鼻裈，与奴婢杂作﹑涤器于市中，而使文君当垆。卓王孙深以为耻，不得已而分财产与之，使回成都。事见《史记.司马相如列传》。又据《西京杂记》载，文君作司马相如诔文传于世;又载相如将聘茂陵人之女为妾，卓文君作《白头吟》以自绝，相如乃止。后世常将卓文君事用为典故。传说后来两人生有一女，唤名琴心。因正月初一生，故皇后赐名元春。<br>　　自古至今，大多数男人总是令人失望。司马相如自然也不例外。 当他在事业上略显锋芒，终于被举荐做官后，久居京城，赏尽风尘美女，加上官场得意，竟然产生了弃妻纳妾之意。曾经患难与共，情深意笃的日子此刻早已忘却。哪里还记得千里之外还有一位日夜倍思丈夫的妻子。文君独守空房，日复一日年复一年地过着寂寞的生活。一首《白头吟》，“……闻君有二意，故来相决绝。愿得一心人，白首不相离。……”表达了她对爱情的执着和向往以及一个女子独特的坚定和坚韧。也为她们的故事增添了几分美丽的哀伤。<br>　　终于某日，司马相如给妻子送出了一封十三字的信：一二三四五六七八九十百千万。聪明的卓文君读后，泪流满面。一行数字中唯独少了一个“亿”，无亿?岂不是夫君在暗示自己已没有以往过去的回忆了。她，心凉如水。怀着十分悲痛的心情，回了一封《怨郎诗》。</p>
+      &lt;blockquote&gt;
+&lt;p&gt;一炼成钢&lt;br&gt;&lt;strong&gt;15&lt;/strong&gt;&lt;br&gt;秒训练大脑提高意志力&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;到底是身体控制意志，还是意志控制身体？直到现在，答案也不明晰。比如，你以为跑步让你开心，或者拉伸释放压力。但一份新研究明确
+    
+    </summary>
+    
+    
+      <category term="健身" scheme="http://yoursite.com/tags/%E5%81%A5%E8%BA%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>卓文君和司马相如</title>
+    <link href="http://yoursite.com/2016/04/30/%E5%8D%93%E6%96%87%E5%90%9B%E5%92%8C%E5%8F%B8%E9%A9%AC%E7%9B%B8%E5%A6%82/"/>
+    <id>http://yoursite.com/2016/04/30/卓文君和司马相如/</id>
+    <published>2016-04-30T05:33:50.000Z</published>
+    <updated>2016-04-30T06:34:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://7xtjf0.com2.z0.glb.clouddn.com/%E5%8D%93%E6%96%87%E5%90%9B.jpg" alt="卓文君"><br>卓文君，汉代才女，西汉临邛(属今四川邛崃)人，卓文君她貌美有才气，善鼓琴，家中富贵。她是汉临邛大富商卓王孙女，好音律，新寡家居。司马相如与卓文君的故事可说是家喻户晓。司马相如过饮于卓氏，以琴心挑之，文君夜奔相如，同驰归成都。因家贫，复回临邛，尽卖其车骑，置酒舍卖酒。相如身穿犊鼻裈，与奴婢杂作﹑涤器于市中，而使文君当垆。卓王孙深以为耻，不得已而分财产与之，使回成都。事见《史记.司马相如列传》。又据《西京杂记》载，文君作司马相如诔文传于世;又载相如将聘茂陵人之女为妾，卓文君作《白头吟》以自绝，相如乃止。后世常将卓文君事用为典故。传说后来两人生有一女，唤名琴心。因正月初一生，故皇后赐名元春。<br>　　自古至今，大多数男人总是令人失望。司马相如自然也不例外。 当他在事业上略显锋芒，终于被举荐做官后，久居京城，赏尽风尘美女，加上官场得意，竟然产生了弃妻纳妾之意。曾经患难与共，情深意笃的日子此刻早已忘却。哪里还记得千里之外还有一位日夜倍思丈夫的妻子。文君独守空房，日复一日年复一年地过着寂寞的生活。一首《白头吟》，“……闻君有二意，故来相决绝。愿得一心人，白首不相离。……”表达了她对爱情的执着和向往以及一个女子独特的坚定和坚韧。也为她们的故事增添了几分美丽的哀伤。<br>　　终于某日，司马相如给妻子送出了一封十三字的信：一二三四五六七八九十百千万。聪明的卓文君读后，泪流满面。一行数字中唯独少了一个“亿”，无亿?岂不是夫君在暗示自己已没有以往过去的回忆了。她，心凉如水。怀着十分悲痛的心情，回了一封《怨郎诗》。</p>
 <p>　　其诗曰：一别之后，二地相悬。只道是三四月，又谁知五六年。七弦琴无心弹，八行书无可传，九曲连环从中折断，十里长亭望眼欲穿。百思想，千系念，万般无奈把君怨。万语千言说不完，百无聊赖十倚栏。重九登高看孤雁，八月仲秋月圆人不圆。七月半，秉烛烧香问苍天。六月伏天人人摇扇我心寒。五月石榴似火红，偏遭阵阵冷雨浇花端。四月枇杷未黄，我欲对镜心意乱。急匆匆，三月桃花随水转;飘零零，二月风筝线儿断。噫，郎呀郎，恨不得下一世，你为女来我做男。<br>　　司马相如看完妻子的信，不禁惊叹妻子之才华横溢。遥想昔日夫妻恩爱之情，羞愧万分，从此不再提遗妻纳妾之事。这首诗也便成了卓文君一生的代表作数字诗。细细品读，其爱恨交织之情跃然纸上。<br>　　卓文君是聪明的。她用自己的智慧挽回了丈夫的背弃。她用心经营着自己的爱情和婚姻，终于苦尽甘来。他们之间最终没有背弃最初的爱恋和最后的坚守。这也使得他们的故事千转百回，成为世俗之上的爱情佳话。<br>免责声明：以上内容源自网络，版权归原作者所有，如有侵犯您的原创版权请告知，我们将尽快删除相关内容。</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/历史人物/">历史人物</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2016/04/30/卓文君和司马相如/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
-  
-    <article id="post-慢慢来-一切都来得及" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+]]></content>
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/30/慢慢来-一切都来得及/">慢慢来,一切都来得及</a>
-    </h1>
-  
-
-        <a href="/2016/04/30/慢慢来-一切都来得及/" class="archive-article-date">
-  	<time datetime="2016-04-30T04:26:21.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-04-30</time>
-</a>
-      </header>
+    <summary type="html">
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
+      &lt;p&gt;&lt;img src=&quot;http://7xtjf0.com2.z0.glb.clouddn.com/%E5%8D%93%E6%96%87%E5%90%9B.jpg&quot; alt=&quot;卓文君&quot;&gt;&lt;br&gt;卓文君，汉代才女，西汉临邛(属今四川邛崃)人，卓文君她貌美有才气，善鼓琴，家中富贵。
+    
+    </summary>
+    
+    
+      <category term="历史人物" scheme="http://yoursite.com/tags/%E5%8E%86%E5%8F%B2%E4%BA%BA%E7%89%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>慢慢来,一切都来得及</title>
+    <link href="http://yoursite.com/2016/04/30/%E6%85%A2%E6%85%A2%E6%9D%A5-%E4%B8%80%E5%88%87%E9%83%BD%E6%9D%A5%E5%BE%97%E5%8F%8A/"/>
+    <id>http://yoursite.com/2016/04/30/慢慢来-一切都来得及/</id>
+    <published>2016-04-30T04:26:21.000Z</published>
+    <updated>2016-04-30T04:51:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
 <blockquote>
 <p><strong>慢慢来，一切都来得及</strong><br>meiya</p>
 </blockquote>
@@ -734,341 +348,169 @@
 <p>2014-09-10 10:47:30<br>1993年，黄秋生凭《人肉叉烧包》获香港电影金像奖影帝。在那之后，他的情绪和演艺事业双双陷入低谷。在那段时间里，他一度想过自杀，意志消沉。庆幸的是他有个个性豁达的老妈，这个老妈没有对儿子苦口婆心地安抚，而是很直接地训斥他：“敢死，还不敢活啊？”可能怕这句训斥太刺激，会给儿子造成伤害，又幽默地补充一句：“如果不死，留下来看看明天将要发生什么，不是也挺有趣的吗？”这两句话，点醒了当时想死的黄秋生，五年之后也就是1998年，黄秋生凭《野兽刑警》再夺金像奖影帝。发表获奖感言时，他只说了一句：“感谢妈妈，我不会再迷失了……”看到这里，你会不会和我一样想起周董的那首歌——听妈妈的话，别让她受伤。</p>
 <p>2014-09-10 11:32:59<br>努力加餐饭，生而愈勇敢。</p>
 <p>2014-09-11 12:49:10<br>我们追求爱情，是因为我们需要，不是因为我们想从爱情中获得什么实在的好处，是因为人生孤独。我们要独自一人在这个世界上走一遭，需要分享，需要施与，需要一个共同成长和见证的朋友。如果没有另一个人，没有分享，我们如何能确定自己感受到的快乐与痛苦是真实的，如何能确定不是只有自己一个人才感受到生命的愉悦与艰难。我们需要通过爱建立一个个连接，连接着自己与爱人，连接着自己与家人。我们要用自己的爱去包容和支撑对方，给予对方力量，同时也给自己力量，相信可以并肩战胜岁月的流逝、环境的变迁、人性的孤独以及人生的虚无。</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/书摘/">书摘</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2016/04/30/慢慢来-一切都来得及/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;慢慢来，一切都来得及&lt;/strong&gt;&lt;br&gt;meiya&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;2014-09-01 10:36:14&lt;br&gt;真正的安全感不是来自外部物质的赋予，而是来自内心的平静和充盈，来自
+    
+    </summary>
+    
+    
+      <category term="书摘" scheme="http://yoursite.com/tags/%E4%B9%A6%E6%91%98/"/>
+    
+  </entry>
   
-    <article id="post-极限挑战" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+  <entry>
+    <title>极限挑战-七牛云存储测试</title>
+    <link href="http://yoursite.com/2016/04/29/%E6%9E%81%E9%99%90%E6%8C%91%E6%88%98/"/>
+    <id>http://yoursite.com/2016/04/29/极限挑战/</id>
+    <published>2016-04-29T08:15:11.000Z</published>
+    <updated>2016-04-29T08:18:19.000Z</updated>
     
-      <header class="article-header">
-        
+    <content type="html"><![CDATA[<p><img src="http://7xtjf0.com1.z0.glb.clouddn.com/%E6%9E%81%E9%99%90%E6%8C%91%E6%88%98.jpg" alt="极限挑战"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://7xtjf0.com1.z0.glb.clouddn.com/%E6%9E%81%E9%99%90%E6%8C%91%E6%88%98.jpg&quot; alt=&quot;极限挑战&quot;&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="极限挑战" scheme="http://yoursite.com/tags/%E6%9E%81%E9%99%90%E6%8C%91%E6%88%98/"/>
+    
+  </entry>
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/29/极限挑战/">极限挑战-七牛云存储测试</a>
-    </h1>
+  <entry>
+    <title>Cmd Markdown</title>
+    <link href="http://yoursite.com/2016/04/29/cmd-markdown/"/>
+    <id>http://yoursite.com/2016/04/29/cmd-markdown/</id>
+    <published>2016-04-29T03:49:31.000Z</published>
+    <updated>2016-04-29T03:49:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="欢迎使用-Cmd-Markdown-编辑阅读器"><a href="#欢迎使用-Cmd-Markdown-编辑阅读器" class="headerlink" title="欢迎使用 Cmd Markdown 编辑阅读器"></a>欢迎使用 Cmd Markdown 编辑阅读器</h1><hr>
+<p>我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，<strong>Cmd Markdown</strong> 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：</p>
+<blockquote>
+<ul>
+<li>整理知识，学习笔记</li>
+<li>发布日记，杂文，所见所想</li>
+<li>撰写发布技术文稿（代码支持）</li>
+<li>撰写发布学术论文（LaTeX 公式支持）</li>
+</ul>
+</blockquote>
+<p><img src="https://www.zybuluo.com/static/img/logo.png" alt="cmd-markdown-logo"></p>
+<p>除了您现在看到的这个 Cmd Markdown 在线版本，您还可以前往以下网址下载：</p>
+<h3 id="Windows-Mac-Linux-全平台客户端"><a href="#Windows-Mac-Linux-全平台客户端" class="headerlink" title="Windows/Mac/Linux 全平台客户端"></a><a href="https://www.zybuluo.com/cmd/" target="_blank" rel="external">Windows/Mac/Linux 全平台客户端</a></h3><blockquote>
+<p>请保留此份 Cmd Markdown 的欢迎稿兼使用说明，如需撰写新稿件，点击顶部工具栏右侧的 <i class="icon-file"></i> <strong>新文稿</strong> 或者使用快捷键 <code>Ctrl+Alt+N</code>。</p>
+</blockquote>
+<hr>
+<h2 id="什么是-Markdown"><a href="#什么是-Markdown" class="headerlink" title="什么是 Markdown"></a>什么是 Markdown</h2><p>Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，<strong>粗体</strong> 或者 <em>斜体</em> 某些文字，更棒的是，它还可以</p>
+<h3 id="1-制作一份待办事宜-Todo-列表"><a href="#1-制作一份待办事宜-Todo-列表" class="headerlink" title="1. 制作一份待办事宜 Todo 列表"></a>1. 制作一份待办事宜 <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-待办事宜-todo-列表" target="_blank" rel="external">Todo 列表</a></h3><ul>
+<li>[ ] 支持以 PDF 格式导出文稿</li>
+<li>[ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</li>
+<li>[x] 新增 Todo 列表功能</li>
+<li>[x] 修复 LaTex 公式渲染问题</li>
+<li>[x] 新增 LaTex 公式编号功能</li>
+</ul>
+<h3 id="2-书写一个质能守恒公式-LaTeX"><a href="#2-书写一个质能守恒公式-LaTeX" class="headerlink" title="2. 书写一个质能守恒公式[^LaTeX]"></a>2. 书写一个质能守恒公式[^LaTeX]</h3><p>$$E=mc^2$$</p>
+<h3 id="3-高亮一段代码-code"><a href="#3-高亮一段代码-code" class="headerlink" title="3. 高亮一段代码[^code]"></a>3. 高亮一段代码[^code]</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@requires_authorization</span></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></div><div class="line">    <span class="keyword">pass</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</div><div class="line">    <span class="comment"># A comment</span></div><div class="line">    <span class="keyword">print</span> <span class="string">'hello world'</span></div></pre></td></tr></table></figure>
+<h3 id="4-高效绘制-流程图"><a href="#4-高效绘制-流程图" class="headerlink" title="4. 高效绘制 流程图"></a>4. 高效绘制 <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#7-流程图" target="_blank" rel="external">流程图</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">st=&gt;start: Start</div><div class="line">op=&gt;operation: Your Operation</div><div class="line">cond=&gt;condition: Yes or No?</div><div class="line">e=&gt;end</div><div class="line"></div><div class="line">st-&gt;op-&gt;cond</div><div class="line">cond(yes)-&gt;e</div><div class="line">cond(no)-&gt;op</div></pre></td></tr></table></figure>
+<h3 id="5-高效绘制-序列图"><a href="#5-高效绘制-序列图" class="headerlink" title="5. 高效绘制 序列图"></a>5. 高效绘制 <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#8-序列图" target="_blank" rel="external">序列图</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Alice-&gt;Bob: Hello Bob, how are you?</div><div class="line">Note right of Bob: Bob thinks</div><div class="line">Bob--&gt;Alice: I am good thanks!</div></pre></td></tr></table></figure>
+<h3 id="6-绘制表格"><a href="#6-绘制表格" class="headerlink" title="6. 绘制表格"></a>6. 绘制表格</h3><table>
+<thead>
+<tr>
+<th>项目</th>
+<th style="text-align:right">价格</th>
+<th style="text-align:center">数量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>计算机</td>
+<td style="text-align:right">\$1600</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td>手机</td>
+<td style="text-align:right">\$12</td>
+<td style="text-align:center">12</td>
+</tr>
+<tr>
+<td>管线</td>
+<td style="text-align:right">\$1</td>
+<td style="text-align:center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="7-更详细语法说明"><a href="#7-更详细语法说明" class="headerlink" title="7. 更详细语法说明"></a>7. 更详细语法说明</h3><p>想要查看更详细的语法说明，可以参考我们准备的 <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown" target="_blank" rel="external">Cmd Markdown 简明语法手册</a>，进阶用户可以参考 <a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-高阶语法手册" target="_blank" rel="external">Cmd Markdown 高阶语法手册</a> 了解更多高级功能。</p>
+<p>总而言之，不同于其它 <em>所见即所得</em> 的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。<strong>Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。</strong> 目前它已经成为世界上最大的技术分享网站 GitHub 和 技术问答网站 StackOverFlow 的御用书写格式。</p>
+<hr>
+<h2 id="什么是-Cmd-Markdown"><a href="#什么是-Cmd-Markdown" class="headerlink" title="什么是 Cmd Markdown"></a>什么是 Cmd Markdown</h2><p>您可以使用很多工具书写 Markdown，但是 Cmd Markdown 是这个星球上我们已知的、最好的 Markdown 工具——没有之一 ：）因为深信文字的力量，所以我们和你一样，对流畅书写，分享思想和知识，以及阅读体验有极致的追求，我们把对于这些诉求的回应整合在 Cmd Markdown，并且一次，两次，三次，乃至无数次地提升这个工具的体验，最终将它演化成一个 <strong>编辑/发布/阅读</strong> Markdown 的在线平台——您可以在任何地方，任何系统/设备上管理这里的文字。</p>
+<h3 id="1-实时同步预览"><a href="#1-实时同步预览" class="headerlink" title="1. 实时同步预览"></a>1. 实时同步预览</h3><p>我们将 Cmd Markdown 的主界面一分为二，左边为<strong>编辑区</strong>，右边为<strong>预览区</strong>，在编辑区的操作会实时地渲染到预览区方便查看最终的版面效果，并且如果你在其中一个区拖动滚动条，我们有一个巧妙的算法把另一个区的滚动条同步到等价的位置，超酷！</p>
+<h3 id="2-编辑工具栏"><a href="#2-编辑工具栏" class="headerlink" title="2. 编辑工具栏"></a>2. 编辑工具栏</h3><p>也许您还是一个 Markdown 语法的新手，在您完全熟悉它之前，我们在 <strong>编辑区</strong> 的顶部放置了一个如下图所示的工具栏，您可以使用鼠标在工具栏上调整格式，不过我们仍旧鼓励你使用键盘标记格式，提高书写的流畅度。</p>
+<p><img src="https://www.zybuluo.com/static/img/toolbar-editor.png" alt="tool-editor"></p>
+<h3 id="3-编辑模式"><a href="#3-编辑模式" class="headerlink" title="3. 编辑模式"></a>3. 编辑模式</h3><p>完全心无旁骛的方式编辑文字：点击 <strong>编辑工具栏</strong> 最右测的拉伸按钮或者按下 <code>Ctrl + M</code>，将 Cmd Markdown 切换到独立的编辑模式，这是一个极度简洁的写作环境，所有可能会引起分心的元素都已经被挪除，超清爽！</p>
+<h3 id="4-实时的云端文稿"><a href="#4-实时的云端文稿" class="headerlink" title="4. 实时的云端文稿"></a>4. 实时的云端文稿</h3><p>为了保障数据安全，Cmd Markdown 会将您每一次击键的内容保存至云端，同时在 <strong>编辑工具栏</strong> 的最右侧提示 <code>已保存</code> 的字样。无需担心浏览器崩溃，机器掉电或者地震，海啸——在编辑的过程中随时关闭浏览器或者机器，下一次回到 Cmd Markdown 的时候继续写作。</p>
+<h3 id="5-离线模式"><a href="#5-离线模式" class="headerlink" title="5. 离线模式"></a>5. 离线模式</h3><p>在网络环境不稳定的情况下记录文字一样很安全！在您写作的时候，如果电脑突然失去网络连接，Cmd Markdown 会智能切换至离线模式，将您后续键入的文字保存在本地，直到网络恢复再将他们传送至云端，即使在网络恢复前关闭浏览器或者电脑，一样没有问题，等到下次开启 Cmd Markdown 的时候，她会提醒您将离线保存的文字传送至云端。简而言之，我们尽最大的努力保障您文字的安全。</p>
+<h3 id="6-管理工具栏"><a href="#6-管理工具栏" class="headerlink" title="6. 管理工具栏"></a>6. 管理工具栏</h3><p>为了便于管理您的文稿，在 <strong>预览区</strong> 的顶部放置了如下所示的 <strong>管理工具栏</strong>：</p>
+<p><img src="https://www.zybuluo.com/static/img/toolbar-manager.jpg" alt="tool-manager"></p>
+<p>通过管理工具栏可以：</p>
+<p><i class="icon-share"></i> 发布：将当前的文稿生成固定链接，在网络上发布，分享<br><i class="icon-file"></i> 新建：开始撰写一篇新的文稿<br><i class="icon-trash"></i> 删除：删除当前的文稿<br><i class="icon-cloud"></i> 导出：将当前的文稿转化为 Markdown 文本或者 Html 格式，并导出到本地<br><i class="icon-reorder"></i> 列表：所有新增和过往的文稿都可以在这里查看、操作<br><i class="icon-pencil"></i> 模式：切换 普通/Vim/Emacs 编辑模式</p>
+<h3 id="7-阅读工具栏"><a href="#7-阅读工具栏" class="headerlink" title="7. 阅读工具栏"></a>7. 阅读工具栏</h3><p><img src="https://www.zybuluo.com/static/img/toolbar-reader.jpg" alt="tool-manager"></p>
+<p>通过 <strong>预览区</strong> 右上角的 <strong>阅读工具栏</strong>，可以查看当前文稿的目录并增强阅读体验。</p>
+<p>工具栏上的五个图标依次为：</p>
+<p><i class="icon-list"></i> 目录：快速导航当前文稿的目录结构以跳转到感兴趣的段落<br><i class="icon-chevron-sign-left"></i> 视图：互换左边编辑区和右边预览区的位置<br><i class="icon-adjust"></i> 主题：内置了黑白两种模式的主题，试试 <strong>黑色主题</strong>，超炫！<br><i class="icon-desktop"></i> 阅读：心无旁骛的阅读模式提供超一流的阅读体验<br><i class="icon-fullscreen"></i> 全屏：简洁，简洁，再简洁，一个完全沉浸式的写作和阅读环境</p>
+<h3 id="8-阅读模式"><a href="#8-阅读模式" class="headerlink" title="8. 阅读模式"></a>8. 阅读模式</h3><p>在 <strong>阅读工具栏</strong> 点击 <i class="icon-desktop"></i> 或者按下 <code>Ctrl+Alt+M</code> 随即进入独立的阅读模式界面，我们在版面渲染上的每一个细节：字体，字号，行间距，前背景色都倾注了大量的时间，努力提升阅读的体验和品质。</p>
+<h3 id="9-标签、分类和搜索"><a href="#9-标签、分类和搜索" class="headerlink" title="9. 标签、分类和搜索"></a>9. 标签、分类和搜索</h3><p>在编辑区任意行首位置输入以下格式的文字可以标签当前文档：</p>
+<p>标签： 未分类</p>
+<p>标签以后的文稿在【文件列表】（Ctrl+Alt+F）里会按照标签分类，用户可以同时使用键盘或者鼠标浏览查看，或者在【文件列表】的搜索文本框内搜索标题关键字过滤文稿，如下图所示：</p>
+<p><img src="https://www.zybuluo.com/static/img/file-list.png" alt="file-list"></p>
+<h3 id="10-文稿发布和分享"><a href="#10-文稿发布和分享" class="headerlink" title="10. 文稿发布和分享"></a>10. 文稿发布和分享</h3><p>在您使用 Cmd Markdown 记录，创作，整理，阅读文稿的同时，我们不仅希望它是一个有力的工具，更希望您的思想和知识通过这个平台，连同优质的阅读体验，将他们分享给有相同志趣的人，进而鼓励更多的人来到这里记录分享他们的思想和知识，尝试点击 <i class="icon-share"></i> (Ctrl+Alt+P) 发布这份文档给好友吧！</p>
+<hr>
+<p>再一次感谢您花费时间阅读这份欢迎稿，点击 <i class="icon-file"></i> (Ctrl+Alt+N) 开始撰写新的文稿吧！祝您在这里记录、阅读、分享愉快！</p>
+<p>作者 <a href="http://weibo.com/ghosert" target="_blank" rel="external">@ghosert</a><br>2015 年 06月 15日    </p>
+<p>[^LaTeX]: 支持 <strong>LaTeX</strong> 编辑显示支持，例如：$\sum_{i=1}^n a_i=0$， 访问 <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" target="_blank" rel="external">MathJax</a> 参考更多使用方法。</p>
+<p>[^code]: 代码高亮功能支持包括 Java, Python, JavaScript 在内的，<strong>四十一</strong>种主流编程语言。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;欢迎使用-Cmd-Markdown-编辑阅读器&quot;&gt;&lt;a href=&quot;#欢迎使用-Cmd-Markdown-编辑阅读器&quot; class=&quot;headerlink&quot; title=&quot;欢迎使用 Cmd Markdown 编辑阅读器&quot;&gt;&lt;/a&gt;欢迎使用 Cmd Markdown
+    
+    </summary>
+    
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+    
+  </entry>
   
-
-        <a href="/2016/04/29/极限挑战/" class="archive-article-date">
-  	<time datetime="2016-04-29T08:15:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-04-29</time>
-</a>
-      </header>
+  <entry>
+    <title>Hello Clawpo</title>
+    <link href="http://yoursite.com/2016/04/29/hello-clawpo/"/>
+    <id>http://yoursite.com/2016/04/29/hello-clawpo/</id>
+    <published>2016-04-29T03:05:04.000Z</published>
+    <updated>2016-04-29T03:05:41.000Z</updated>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><img src="http://7xtjf0.com1.z0.glb.clouddn.com/%E6%9E%81%E9%99%90%E6%8C%91%E6%88%98.jpg" alt="极限挑战"></p>
+    <content type="html"><![CDATA[<p>hello</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;hello&lt;/p&gt;
 
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags"></i>
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/极限挑战/">极限挑战</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2016/04/29/极限挑战/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
+    
+    </summary>
+    
+    
+      <category term="clawpo" scheme="http://yoursite.com/tags/clawpo/"/>
+    
+  </entry>
   
-  
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
-    </nav>
-  
-
-
-          </div>
-        </div>
-      </div>
-      <footer id="footer">
-  <div class="outer">
-    <div id="footer-info">
-    	<div class="footer-left">
-    		&copy; 2016 sykapao
-    	</div>
-      	<div class="footer-right">
-      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
-      	</div>
-    </div>
-  </div>
-</footer>
-    </div>
-    <script>
-	var yiliaConfig = {
-		mathjax: false,
-		isHome: true,
-		isPost: false,
-		isArchive: false,
-		isTag: false,
-		isCategory: false,
-		open_in_new: false,
-		root: "/",
-		innerArchive: true
-	}
-</script>
-
-<script src="/./main.js?v=4.0.0.js"></script>
-
-
-    
-<div class="tools-col" q-class="show:isShow,hide:isShow|isFalse" q-on="click:stop(e)">
-  <div class="tools-wrap">
-    
-    	<section class="tools-section tools-section-all" q-show="innerArchive">
-        <div class="search-wrap">
-          <input class="search-ipt" q-model="search" type="text" placeholder="find something…">
-          <i class="icon-search icon" q-show="search|isEmptyStr"></i>
-          <i class="icon-close icon" q-show="search|isNotEmptyStr" q-on="click:clearChose(e)"></i>
-        </div>
-        <div class="widget tagcloud search-tag">
-          <p class="search-tag-wording">tag:</p>
-          <label class="search-switch">
-            <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
-          </label>
-          <ul class="article-tag-list" q-show="showTags">
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)">hexo</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)">markdown</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)">clawpo</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)">健身</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)">历史人物</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)">书摘</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)">极限挑战</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)">典故</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)">hexo,markdown</a>
-              </li>
-            
-            <div class="clearfix"></div>
-          </ul>
-        </div>
-        <ul class="search-ul">
-          <p q-show="jsonFail" style="padding: 20px; font-size: 12px;">
-            缺失模块。<br/>1、在博客根目录（注意不是yilia根目录）执行以下命令：<br/> npm i hexo-generator-json-content --save<br/><br/>
-            2、在根目录_config.yml里添加配置：
-<pre style="font-size: 12px;" q-show="jsonFail">
-  jsonContent:
-    meta: false
-    pages: false
-    posts:
-      title: true
-      date: true
-      path: true
-      text: true
-      raw: false
-      content: false
-      slug: false
-      updated: false
-      comments: false
-      link: false
-      permalink: false
-      excerpt: false
-      categories: false
-      tags: true
-</pre>
-          </p>
-          <li class="search-li" q-repeat="items" q-show="isShow">
-            <a q-attr="href:path|urlformat" class="search-title"><i class="icon-quo-left icon"></i><span q-text="title"></span></a>
-            <p class="search-time">
-              <i class="icon-calendar icon"></i>
-              <span q-text="date|dateformat"></span>
-            </p>
-            <p class="search-tag">
-              <i class="icon-price-tags icon"></i>
-              <span q-repeat="tags" q-on="click:choseTag(e, name)" q-text="name|tagformat"></span>
-            </p>
-          </li>
-        </ul>
-    	</section>
-    
-
-    
-    	<section class="tools-section tools-section-friends" q-show="friends">
-  		
-        <ul class="search-ul">
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
-            </li>
-          
-        </ul>
-  		
-    	</section>
-    
-
-    
-    	<section class="tools-section tools-section-me" q-show="aboutme">
-  	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
-  	  	
-    	</section>
-    
-  </div>
-  
-</div>
-    <!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-
-            <div class="pswp__top-bar">
-
-                <!--  Controls are self-explanatory. Order can be changed. -->
-
-                <div class="pswp__counter"></div>
-
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
-
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-  </div>
-</body>
-</html>
+</feed>
