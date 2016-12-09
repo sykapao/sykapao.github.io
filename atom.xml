@@ -64,7 +64,7 @@
     <link href="http://yoursite.com/2016/06/11/%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/"/>
     <id>http://yoursite.com/2016/06/11/语法测试/</id>
     <published>2016-06-11T04:13:57.000Z</published>
-    <updated>2016-12-09T06:39:38.000Z</updated>
+    <updated>2016-12-09T06:41:07.000Z</updated>
     
     <content type="html"><![CDATA[<p>$$    x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p>
 <p>$$<br>  \begin{aligned}<br>  \dot{x} &amp; = \sigma(y-x) \\<br>  \dot{y} &amp; = \rho x - y - xz \\<br>  \dot{z} &amp; = -\beta z + xy<br>  \end{aligned}<br>$$</p>
@@ -82,7 +82,9 @@
     </summary>
     
     
-      <category term="hexo markdown" scheme="http://yoursite.com/tags/hexo-markdown/"/>
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
     
   </entry>
   
